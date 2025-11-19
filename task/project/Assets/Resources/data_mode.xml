@@ -1,0 +1,36 @@
+﻿<Data>
+    <Mode ID="1">
+        <Core>LobbyModeCoreComponent</Core>
+    </Mode>
+    <Mode ID="2">
+        <Core>PlayBossModeCoreComponent</Core>
+        <Feature Type="SagaWorld">
+            <CellSO>so_cell_01</CellSO>
+            <MapPrefab>pf_object_map01</MapPrefab>
+        </Feature>
+        <Feature Type="SagaBubble">
+            <AppearBubbleID>1</AppearBubbleID>
+            <AppearBubbleID>2</AppearBubbleID>
+            <AppearBubbleID>3</AppearBubbleID>
+            <AppearBubbleID>4</AppearBubbleID>
+            <AppearBubbleID>5</AppearBubbleID>
+            <AppearBubbleID>6</AppearBubbleID>
+            <AppearBubbleID>7</AppearBubbleID>
+			<AppearBubbleID>8</AppearBubbleID>
+			<AppearBubbleID>11</AppearBubbleID>
+            
+            <ShotBubbleID>1</ShotBubbleID>
+            <ShotBubbleID>2</ShotBubbleID>
+            <ShotBubbleID>3</ShotBubbleID>
+            <ShotBubbleID>4</ShotBubbleID>
+            <ShotBubbleID>21</ShotBubbleID>
+
+            <SpawnerBubbleID>31</SpawnerBubbleID>
+        </Feature>
+        <Feature Type="SagaBossSystem">
+            <BossPrefab>pf_object_boss</BossPrefab>
+            <BossHP>10</BossHP>
+            <LimitShot>10</LimitShot>
+        </Feature>
+    </Mode>
+</Data>

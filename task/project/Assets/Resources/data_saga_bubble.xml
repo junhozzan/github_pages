@@ -1,0 +1,99 @@
+﻿<Data>
+    <Bubble ID="1">
+        <Prefab>pf_object_bubble</Prefab>
+        <Atlas>at_bubble</Atlas>
+        <Sprite>red</Sprite>
+        <MatchID>1</MatchID>
+        <MatchID>5</MatchID>
+        <MinMatchCount>3</MinMatchCount>
+    </Bubble>
+    <Bubble ID="2">
+        <Prefab>pf_object_bubble</Prefab>
+        <Atlas>at_bubble</Atlas>
+        <Sprite>blue</Sprite>
+        <MatchID>2</MatchID>
+        <MatchID>6</MatchID>
+        <MinMatchCount>3</MinMatchCount>
+    </Bubble>
+    <Bubble ID="3">
+        <Prefab>pf_object_bubble</Prefab>
+        <Atlas>at_bubble</Atlas>
+        <Sprite>green</Sprite>
+        <MatchID>3</MatchID>
+        <MatchID>7</MatchID>
+        <MinMatchCount>3</MinMatchCount>
+    </Bubble>
+    <Bubble ID="4">
+        <Prefab>pf_object_bubble</Prefab>
+        <Atlas>at_bubble</Atlas>
+        <Sprite>yellow</Sprite>
+        <MatchID>4</MatchID>
+        <MatchID>8</MatchID>
+        <MinMatchCount>3</MinMatchCount>
+    </Bubble>
+
+    <Bubble ID="5">
+        <Prefab>pf_object_bubble_s</Prefab>
+        <Atlas>at_bubble</Atlas>
+        <Sprite>red</Sprite>
+        <MatchID>1</MatchID>
+        <MatchID>5</MatchID>
+        <MinMatchCount>3</MinMatchCount>
+        <Damage>1</Damage>
+    </Bubble>
+    <Bubble ID="6">
+        <Prefab>pf_object_bubble_s</Prefab>
+        <Atlas>at_bubble</Atlas>
+        <Sprite>blue</Sprite>
+        <MatchID>2</MatchID>
+        <MatchID>6</MatchID>
+        <MinMatchCount>3</MinMatchCount>
+        <Damage>1</Damage>
+    </Bubble>
+    <Bubble ID="7">
+        <Prefab>pf_object_bubble_s</Prefab>
+        <Atlas>at_bubble</Atlas>
+        <Sprite>green</Sprite>
+        <MatchID>3</MatchID>
+        <MatchID>7</MatchID>
+        <MinMatchCount>3</MinMatchCount>
+        <Damage>1</Damage>
+    </Bubble>
+    <Bubble ID="8">
+        <Prefab>pf_object_bubble_s</Prefab>
+        <Atlas>at_bubble</Atlas>
+        <Sprite>yellow</Sprite>
+        <MatchID>4</MatchID>
+        <MatchID>8</MatchID>
+        <MinMatchCount>3</MinMatchCount>
+        <Damage>1</Damage>
+    </Bubble>
+
+
+    <!-- 소형 폭탄 -->
+    <Bubble ID="11">
+        <Prefab>pf_object_bubble</Prefab>
+        <Atlas>at_bubble</Atlas>
+        <Sprite>boom_g</Sprite>
+        <IsMine>true</IsMine>
+        <ExplosionSO>so_explosion_2</ExplosionSO>
+        <PopEffect>pf_object_boom2</PopEffect>
+    </Bubble>
+
+    <!-- 대형 폭탄 -->
+    <Bubble ID="21">
+        <Prefab>pf_object_bubble</Prefab>
+        <Atlas>at_bubble</Atlas>
+        <Sprite>boom</Sprite>
+        <MinMatchCount>1</MinMatchCount>
+        <ExplosionSO>so_explosion_3</ExplosionSO>
+        <PopEffect>pf_object_boom3</PopEffect>
+    </Bubble>
+
+    <!-- 보스 버블 스포너-->
+    <Bubble ID="31">
+        <Prefab>pf_object_bubble</Prefab>
+        <Atlas>at_bubble</Atlas>
+        <Sprite>spawner</Sprite>
+    </Bubble>
+</Data>

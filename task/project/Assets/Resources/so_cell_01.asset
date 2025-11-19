@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e956a5d84c8ab74f922ba19f2797260, type: 3}
+  m_Name: so_cell_01
+  m_EditorClassIdentifier: 
+  grid: {fileID: 6540809488154621656, guid: 3a2e80e7715c42745b8851e0ceb5a893, type: 3}
+  cells:
+  - coord: {x: 0, y: 6, z: 0}
+    cellType: 2
+    group: -1
+  - coord: {x: -2, y: 6, z: 0}
+    cellType: 1
+    group: 1
+  - coord: {x: -3, y: 6, z: 0}
+    cellType: 0
+    group: 1
+  - coord: {x: -4, y: 6, z: 0}
+    cellType: 0
+    group: 1
+  - coord: {x: -5, y: 5, z: 0}
+    cellType: 0
+    group: 1
+  - coord: {x: -4, y: 4, z: 0}
+    cellType: 0
+    group: 1
+  - coord: {x: -3, y: 4, z: 0}
+    cellType: 0
+    group: 1
+  - coord: {x: -2, y: 4, z: 0}
+    cellType: 0
+    group: 1
+  - coord: {x: -1, y: 4, z: 0}
+    cellType: 0
+    group: 1
+  - coord: {x: -1, y: 3, z: 0}
+    cellType: 0
+    group: 1
+  - coord: {x: -1, y: 2, z: 0}
+    cellType: 0
+    group: 1
+  - coord: {x: -2, y: 2, z: 0}
+    cellType: 0
+    group: 1
+  - coord: {x: -3, y: 2, z: 0}
+    cellType: 0
+    group: 1
+  - coord: {x: -4, y: 2, z: 0}
+    cellType: 0
+    group: 1
+  - coord: {x: -5, y: 1, z: 0}
+    cellType: 0
+    group: 1
+  - coord: {x: -4, y: 0, z: 0}
+    cellType: 0
+    group: 1
+  - coord: {x: -3, y: 0, z: 0}
+    cellType: 0
+    group: 1
+  - coord: {x: -2, y: 0, z: 0}
+    cellType: 0
+    group: 1
+  - coord: {x: 2, y: 6, z: 0}
+    cellType: 1
+    group: 2
+  - coord: {x: 3, y: 6, z: 0}
+    cellType: 0
+    group: 2
+  - coord: {x: 4, y: 6, z: 0}
+    cellType: 0
+    group: 2
+  - coord: {x: 4, y: 5, z: 0}
+    cellType: 0
+    group: 2
+  - coord: {x: 4, y: 4, z: 0}
+    cellType: 0
+    group: 2
+  - coord: {x: 3, y: 4, z: 0}
+    cellType: 0
+    group: 2
+  - coord: {x: 2, y: 4, z: 0}
+    cellType: 0
+    group: 2
+  - coord: {x: 1, y: 4, z: 0}
+    cellType: 0
+    group: 2
+  - coord: {x: 0, y: 3, z: 0}
+    cellType: 0
+    group: 2
+  - coord: {x: 1, y: 2, z: 0}
+    cellType: 0
+    group: 2
+  - coord: {x: 2, y: 2, z: 0}
+    cellType: 0
+    group: 2
+  - coord: {x: 3, y: 2, z: 0}
+    cellType: 0
+    group: 2
+  - coord: {x: 4, y: 2, z: 0}
+    cellType: 0
+    group: 2
+  - coord: {x: 4, y: 1, z: 0}
+    cellType: 0
+    group: 2
+  - coord: {x: 4, y: 0, z: 0}
+    cellType: 0
+    group: 2
+  - coord: {x: 3, y: 0, z: 0}
+    cellType: 0
+    group: 2
+  - coord: {x: 2, y: 0, z: 0}
+    cellType: 0
+    group: 2

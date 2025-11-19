@@ -1,0 +1,11 @@
+﻿task/project/Library
+task/project/Logs
+task/project/Temp
+task/project/UserSettings
+task/project/.vsconfig
+task/project/Assembly-CSharp.csproj
+task/project/Assembly-CSharp-Editor.csproj
+task/project/Assembly-CSharp-firstpass.csproj
+task/project/project.sln
+task/project/obj
+task/project/.vs
